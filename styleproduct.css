@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body,
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem;
+    background-color: #082B59;
+    border-bottom: 15px solid #D98555;
+}
+
+.columbian-beans {
+    font-weight: 10px;
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-toggler {
+    border-color: #f2f2f2;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(242, 242, 242, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    color: #f2f2f2 !important;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.nav-link img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.nav-icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+.about-us-title {
+    padding-top: 50px;
+}
+
+.lead {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+.footer-image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #082B59;
+    color: #d5d5d5;
+}
+
+.bg-custom {
+    background-color: #082B59;
+}
+
+.social-icons img {
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.pouring-coffee {
+    margin-top: -200px;
+}
+
+.our-product-title {
+    margin-left: -150px;
+    margin-top: 50px;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #082B59;
+        padding: 1rem;
+    }
+
+    .nav-item {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+    .nav-item {
+        margin-right: 20px;
+    }
+
+    .nav-link {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-us-title {
+        font-size: 2rem;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .welcome {
+        padding: 0 15px;
+    }
+
+    .lead {
+        font-size: 1.2rem;
+    }
+
+    .row.align-items-center {
+        margin-bottom: 30px;
+    }
+
+    .col-md-4 {
+        margin-bottom: 20px;
+        align-content: center;
+    }
+
+
+    .columbian-beans {
+        text-align: left;
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+
+    .image-text {
+        text-align: center;
+    }
+
+    .pouring-coffee {
+        margin-top: 10px;
+    }
+
+    .our-product-title {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .image-text {
+        margin-left: 85px;
+        margin-right: 75px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) {
+    footer h6 {
+        font-size: 16px;
+    }
+
+    .social-icons img {
+        width: 45px;
+        margin: 0 8px;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        padding: 30px 0;
+    }
+
+    footer h6 {
+        font-size: 18px;
+    }
+
+    .social-icons img {
+        width: 50px;
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    footer {
+        padding: 40px 0;
+    }
+
+    footer h6 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    footer {
+        padding: 50px 0;
+    }
+}
